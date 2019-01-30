@@ -11,7 +11,7 @@ number](systemcalls-table.md) into register `$v0` and the arguments in registers
 `$v0`. The sytem call itself is invoked with the special instruction `syscall`
 
 For example, there is a `print_string` and a `print_int` system call, that
-combined can be used to print to the console `"the anser = 5"`
+combined can be used to print to the console `"the answer = 5"`
 
 ```
     .data
